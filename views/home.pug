@@ -1,0 +1,31 @@
+extends base.pug 
+
+block style 
+   style 
+     include ../static/style.css 
+
+block content 
+    section#introSection
+        div Welcome to My Dance Academy
+        div.small Eat Sleep Dance Repeat
+    section#missionSection
+        h2 Our Mission
+        div.card 
+          h3 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          div.card-image 
+             img(src='/static/card.png')
+        div.card 
+          h3 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          div.card-image
+           img(src='/static/card.png')
+
+        div.card 
+          h3 Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          div.card-image
+           img(src='/static/card.png')  
+    section#sponsors 
+        h2 Our Sponsors
+        div.SI-image   
+         img(src="/static/logo1.png", alt="sponsor" )
+         img(src="/static/logo2.png", alt="sponsor" )
+         img(src="/static/logo3.png", alt="sponsor" )    

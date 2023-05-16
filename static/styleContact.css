@@ -1,0 +1,32 @@
+h2{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.myForm{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ align-items: center;
+}
+.myInput{
+ font-size: 14px;
+ width: 40%;
+ border: solid black;
+ border-radius: 10px;
+ padding: 8px;
+ margin: 10px 0;
+
+}
+
+.btn{
+    border: solid 2px;
+    padding: 8px 15px;
+    margin: 10px;
+    font-size: 14px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: blue;
+}

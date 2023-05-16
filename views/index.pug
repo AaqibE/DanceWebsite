@@ -1,0 +1,40 @@
+doctype html
+html
+  head
+    style
+     include ../static/style.css
+  body 
+    nav#navbar 
+      ul 
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+
+    section#introSection
+        div Welcome to Harry's Dance Academy
+        div.small Eat Sleep Dance Repeat
+    section#missionSection
+        h2 Our Mission
+        div.card 
+          h3 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          div.card-image 
+             img(src='/static/card.png')
+        div.card 
+          h3 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          div.card-image
+           img(src='/static/card.png')
+
+        div.card 
+          h3 Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          div.card-image
+           img(src='/static/card.png')  
+    section#sponsors 
+        h2 Our Sponsors
+        div.SI-image   
+         img(src="/static/logo1.png", alt="sponsor" )
+         img(src="/static/logo2.png", alt="sponsor" )
+         img(src="/static/logo3.png", alt="sponsor" )
+    footer#footer           
+        p Copyright © 2022 Dance Academy | All Rights Reserved
